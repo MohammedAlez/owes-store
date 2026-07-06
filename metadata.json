@@ -1,0 +1,6 @@
+{
+  "name": "Owes Store",
+  "description": "Boutique en ligne élégante et haut de gamme de vêtements originaux importés des USA en Algérie, basée à Akid Lotfi Oran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
