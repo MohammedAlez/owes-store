@@ -186,7 +186,7 @@ export default function ProductDetailModal({ product, onClose }: ProductDetailMo
       {/* Container Panel */}
       <div
         id="product-modal-content"
-        className="relative w-full max-w-5xl bg-[#121212] border border-[#c07a43]/30 rounded-3xl overflow-hidden shadow-2xl animate-scaleIn max-h-[90vh] flex flex-col md:flex-row"
+        className="relative w-full max-w-5xl bg-[#1a1a1e] border border-[#c07a43]/30 rounded-3xl overflow-hidden shadow-2xl animate-scaleIn max-h-[90vh] flex flex-col md:flex-row"
       >
         {/* Close button */}
         <button

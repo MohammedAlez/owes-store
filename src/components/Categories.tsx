@@ -21,7 +21,7 @@ export default function Categories() {
   };
 
   return (
-    <section id="categories" className="py-20 px-6 md:px-12 bg-[#121212] border-t border-zinc-900">
+    <section id="categories" className="py-20 px-6 md:px-12 bg-[#1a1a1e] border-t border-zinc-900">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Heading */}

@@ -15,7 +15,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="testimonials" className="py-24 px-6 md:px-12 bg-zinc-950 relative border-t border-zinc-900">
+    <section id="testimonials" className="py-24 px-6 md:px-12 bg-[#141416] relative border-t border-zinc-900/50">
       {/* Decorative quotes graphic inside background */}
       <div className="absolute right-12 bottom-12 opacity-5 pointer-events-none hidden md:block">
         <Quote className="h-44 w-44 text-white" />

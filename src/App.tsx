@@ -13,7 +13,7 @@ function ShopAppContent() {
   const { isCheckoutOpen, setIsCheckoutOpen } = useShop();
 
   return (
-    <div className="min-h-screen bg-[#121212] text-white selection:bg-[#c07a43] selection:text-white overflow-x-hidden">
+    <div className="min-h-screen bg-[#1a1a1e] text-white selection:bg-[#c07a43] selection:text-white overflow-x-clip">
       {/* Dynamic Slide-over Cart Drawer */}
       <Cart />
 

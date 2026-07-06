@@ -33,7 +33,7 @@ export default function Footer() {
   };
 
   return (
-    <footer id="footer" className="bg-[#09090b] border-t border-zinc-900 pt-20 pb-8 px-6 md:px-12 relative overflow-hidden font-sans">
+    <footer id="footer" className="bg-[#101012] border-t border-zinc-900/60 pt-20 pb-8 px-6 md:px-12 relative overflow-hidden font-sans">
       
       {/* Decorative Brand Text Backdrop (Toteme style large logo at bottom) */}
       <div className="absolute inset-x-0 bottom-0 select-none opacity-[0.02] text-center pointer-events-none hidden lg:block">

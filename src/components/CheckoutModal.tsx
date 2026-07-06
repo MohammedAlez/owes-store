@@ -181,7 +181,7 @@ export default function CheckoutModal({ onClose }: CheckoutModalProps) {
       {/* Outer Card Wrapper */}
       <div
         id="checkout-modal-content"
-        className="relative w-full max-w-4xl bg-[#121212] border border-[#c07a43]/30 rounded-3xl overflow-hidden shadow-2xl animate-scaleIn max-h-[90vh] flex flex-col"
+        className="relative w-full max-w-4xl bg-[#1a1a1e] border border-[#c07a43]/30 rounded-3xl overflow-hidden shadow-2xl animate-scaleIn max-h-[90vh] flex flex-col"
       >
         {/* Header (Hide if submitted to let Success shine) */}
         {!isSubmitted && (

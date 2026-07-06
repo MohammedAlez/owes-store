@@ -23,7 +23,7 @@ export default function Hero() {
   return (
     <section 
       id="hero" 
-      className="relative h-[90vh] min-h-[600px] w-full flex items-center justify-center bg-[#09090b] overflow-hidden"
+      className="relative h-[90vh] min-h-[600px] w-full flex items-center justify-center bg-[#141416] overflow-hidden"
     >
       {/* Premium Unsplash Editorial Background Image */}
       <div className="absolute inset-0 z-0">
@@ -33,8 +33,8 @@ export default function Hero() {
           className="w-full h-full object-cover object-center opacity-40 scale-105 filter grayscale contrast-125 saturate-50"
         />
         {/* Dark radial and linear gradients for luxury overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-[#121212]/90"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#121212]/80 via-transparent to-[#121212]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1e] via-transparent to-[#1a1a1e]/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a1e]/80 via-transparent to-[#1a1a1e]/80"></div>
       </div>
 
       {/* Decorative vertical lines representing structural editorial look */}

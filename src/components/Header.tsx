@@ -34,14 +34,14 @@ export default function Header() {
   };
 
   return (
-    <header id="owes-header" className="relative z-40 w-full transition-all duration-300">
+    <header id="owes-header" className="sticky top-0 z-50 w-full transition-all duration-300">
       {/* Main Navbar */}
       <div
         id="main-nav"
         className={`w-full py-4 px-6 md:px-12 transition-all duration-500 border-b ${
           isScrolled
-            ? "bg-[#121212]/95 backdrop-blur-md border-[#c07a43]/20 shadow-lg"
-            : "bg-[#121212]/80 backdrop-blur-xs border-transparent"
+            ? "bg-[#1a1a1e]/95 backdrop-blur-md border-[#c07a43]/20 shadow-lg"
+            : "bg-[#1a1a1e]/80 backdrop-blur-xs border-transparent"
         }`}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -152,7 +152,7 @@ export default function Header() {
           {/* Drawer content */}
           <div
             id="mobile-drawer-content"
-            className="relative w-full max-w-sm bg-[#121212] border-r border-[#c07a43]/20 flex flex-col justify-between p-8 shadow-2xl animate-slideInRight"
+            className="relative w-full max-w-sm bg-[#1a1a1e] border-r border-[#c07a43]/20 flex flex-col justify-between p-8 shadow-2xl animate-slideInRight"
           >
             <div>
               {/* Header inside drawer */}

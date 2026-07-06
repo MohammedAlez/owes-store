@@ -58,7 +58,7 @@ export default function Products() {
   }, [selectedCategory]);
 
   return (
-    <section id="products" className="py-24 px-6 md:px-12 bg-[#121212] relative">
+    <section id="products" className="py-24 px-6 md:px-12 bg-[#1a1a1e] relative">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}

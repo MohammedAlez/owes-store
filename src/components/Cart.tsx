@@ -27,7 +27,7 @@ export default function Cart() {
       {/* Cart Container panel */}
       <div
         id="cart-drawer-content"
-        className="relative w-full max-w-md bg-[#121212] border-l border-[#c07a43]/20 h-full flex flex-col justify-between p-6 md:p-8 shadow-2xl animate-slideInRight font-sans z-10"
+        className="relative w-full max-w-md bg-[#1a1a1e] border-l border-[#c07a43]/20 h-full flex flex-col justify-between p-6 md:p-8 shadow-2xl animate-slideInRight font-sans z-10"
       >
         {/* Header */}
         <div className="flex items-center justify-between pb-6 border-b border-zinc-900">
