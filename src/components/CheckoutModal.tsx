@@ -485,13 +485,13 @@ export default function CheckoutModal({ onClose }: CheckoutModalProps) {
                 {/* Submission CTA buttons block */}
                 <div className="space-y-3">
                   {/* Checkout via WhatsApp */}
-                  <button
+                  {/* <button
                     onClick={handleSubmitWhatsApp}
                     className="w-full flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#20ba5a] text-white py-4 rounded-xl text-xs font-bold uppercase tracking-widest shadow-md hover:shadow-lg transition-all active:scale-[0.98] cursor-pointer"
                   >
                     <MessageCircle className="h-4.5 w-4.5" />
                     Commander via WhatsApp
-                  </button>
+                  </button> */}
 
                   {/* Standard Order placement (calls customer for confirmation) */}
                   <button
